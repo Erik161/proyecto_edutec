@@ -9,59 +9,16 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
     <title>Proyecto Edutec</title>
-
-        <style type="text/css">
-                *,
-                *::before,
-                *::after{
-                       box-sizing:border-box ;
-                }
-
-                *:focus{
-                        outline: none;   
-                }
-
-                body{
-                        padding: 0;
-                        margin:0;
-                        background: #000;
-                        color: white;
-                        font-family:  "Oxygen", sans_serif;
-                        overflow-y: hidden;   
-                }
-
-                 a{
-                text-decoration: none;
-                  }
-
-                  img{
-                         width: 100%;
-
-                  }
-
-                .home img{
-                        width: 100%;
-                        -webkit-filter: grayscale(100%)
-                        contrast(100%);
-
-
-                  }
-        </style>
-
-       
-
-
-
-
-
 </head>
+
+ 
 <body>
 
  <!--Barra de navegacion-->       
     <aside>
             <nav>
                     <img src="img/erik.jpg" alt="">
-                    <a href="#home"><i class="material-icons md-36">Home</i></a>
+                    <a href="#home"><i class="material-icons md-36">home</i></a>
                     <p>Home</p>
 
                     <a href="#person"><i class="material-icons md-36">person</i></a>
@@ -75,11 +32,13 @@
             </nav>
     </aside> 
 
+
+    <!--Barra de navegacion para mobil-->
             <nav class="mobile-nav">
                     <a href="#home">Home</a>
                     <a href="#about">About</a>
                     <a href="#folio">Folio</a>
-                    <a href="#contact">Contact</a>
+                    <a href="mail">mail</a>
             </nav>
 
             <main>
@@ -91,7 +50,7 @@
             </main>
 
 
-            <section class="about" id="About">
+            <section class="about" id="person">
                     <h2>About me</h2>
                     <p>
                         <span>Hello, I'am Erik </span> I'am Designer and Developer, life long learner, and ready 
@@ -104,34 +63,36 @@
                     </p>
 
                     <h3>My skills </h3>
-                    <p>Figma</p>  
+
+                    <p>Html5</p>  
                     <div class="container">
-                            <div class="skills figma">95%  </div>   
+                            <div class="skills html">50%  </div>   
                     </div>
 
-                    <h3>Html 5 </h3>
+                    </h3>Css3 </h3>
                     <div class="container">
-                        <div class="skills figma"> 95%</div>
+                        <div class="skills css"> 50%</div>
                 </div>
-                    
-                <h3>Css3 </h3>
-                <div class="container">
-                        <div class="skills css"> 95% </div>
-                </div>
-
+                
                 <h3>Javascript </h3>
                 <div class="container">
-                        <div class="skills js"> 95% </div>
+                        <div class="skills js"> 50% </div>
+                </div>
+               
+
+                <h3>Java </h3>
+                <div class="container">
+                        <div class="skills java">60% </div>
                 </div>
 
-                <h3>jquery </h3>
+                <h3>JQuery </h3>
                 <div class="container">
-                        <div class="skills figma"> 95%</div>
+                        <div class="skills query"> 50%</div>
                 </div>
 
             </section>
 
-            <section class="folio" id="folio">
+            <section class="folio" id="image">
                     <h2>folio</h2>
                         <div class="row-halves">
                                 <div class="col">
@@ -180,7 +141,7 @@
 
 
 
-            <section class="contact" id="contact">
+            <section class="contact" id="mail">
 
                         <h2>contact</h2>
                         <div class="container">
