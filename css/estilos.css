@@ -120,9 +120,10 @@ text-decoration: none;
   .about,
   .folio,
   .contact{
-      line-height: 1.5em;
-      letter-spacing: 1px;
-      font-weight: 300;
+    max-width: 980px;
+    background: #000;
+    margin-left: 20%;
+    padding: 12px 50px 12px 50px;
   }
 
   .about h2,
@@ -256,7 +257,7 @@ textarea:focus{
        padding: 12px 20px;
        border: 1px solid #222;
        cursor: pointer;
-       transition: 
+       transition: all 0.35s;
    }
 
 
