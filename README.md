@@ -1,3 +1,3 @@
 ## PROYECTO EDUTEC
 
-### Preview 
+## Preview 
